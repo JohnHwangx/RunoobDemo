@@ -8,6 +8,12 @@
     android:orientation="vertical">
 
     <Button
+        android:onClick="No4_AppComponent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No.4 应用组件"/>
+
+    <Button
         android:onClick="No6_DatabaseOperator"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.johnh.runoobdemo.No4_AppComponents.No4_4_1_ContentProvider1">
+
+    <Button
+        android:onClick="SimpleReadSms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="简单的读取收件箱信息"/>
+
+</LinearLayout>

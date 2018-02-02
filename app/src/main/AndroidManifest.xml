@@ -6,6 +6,7 @@
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_SMS" />
 
     <application
         android:allowBackup="true"
@@ -24,7 +25,9 @@
         <activity android:name=".No6_Database_Operation.No6_Database_Operation" />
         <activity android:name=".No6_Database_Operation.No6_1_File_Operator" />
         <activity android:name=".No7_Web_Application.No7_Web_Application" />
-        <activity android:name=".No7_Web_Application.No7_3_2_FileDownloder"></activity>
+        <activity android:name=".No7_Web_Application.No7_3_2_FileDownloder" />
+        <activity android:name=".No4_AppComponents.No4_AppComponent" />
+        <activity android:name=".No4_AppComponents.No4_4_1_ContentProvider1"></activity>
     </application>
 
 </manifest>

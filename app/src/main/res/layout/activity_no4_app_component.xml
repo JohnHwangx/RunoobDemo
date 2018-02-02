@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.johnh.runoobdemo.No4_AppComponents.No4_AppComponent">
+
+    <Button
+android:onClick="No4_4_1_ContentProvider1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="4.4.1 ContentProvider初探"/>
+
+</LinearLayout>
