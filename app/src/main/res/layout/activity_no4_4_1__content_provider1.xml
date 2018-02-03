@@ -4,12 +4,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.johnh.runoobdemo.No4_AppComponents.No4_4_1_ContentProvider1">
 
     <Button
-        android:onClick="SimpleReadSms"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="简单的读取收件箱信息"/>
+        android:onClick="SimpleReadSms"
+        android:text="简单的读取收件箱信息" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="SimpleInsertSms"
+        android:text="简单的往收件箱里插入一条信息" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="SimpleReadContact"
+        android:text="简单的读取手机联系人" />
+
+    <EditText
+        android:id="@+id/editNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入要查询的号码"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="SimpleQueryContact"
+        android:text="查询指定电话的联系人信息" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="SimpleAddContact"
+        android:text="添加一个新的联系人" />
 </LinearLayout>
