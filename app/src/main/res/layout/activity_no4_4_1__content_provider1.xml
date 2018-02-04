@@ -17,7 +17,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="SimpleInsertSms"
-        android:text="简单的往收件箱里插入一条信息" />
+        android:text="简单的往收件箱里插入一条信息(5.0以上不可用了)" />
 
     <Button
         android:layout_width="match_parent"

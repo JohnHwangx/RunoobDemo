@@ -49,6 +49,10 @@ public class No4_4_1_ContentProvider1 extends AppCompatActivity {
         cursor.close();
     }
 
+    /**
+     * 插入短信的代码在4.4以下都可以实现写入短信的功能，而5.0上就无法写入，
+     * 原因是： 从5.0开始，默认短信应用外的软件不能以写入短信数据库的形式发短信！
+     */
     private void insertMsg() {
         ContentResolver resolver = getContentResolver();
         Uri uri = Uri.parse("content://sms/");

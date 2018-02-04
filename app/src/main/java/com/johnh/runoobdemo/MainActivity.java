@@ -23,8 +23,11 @@ public class MainActivity extends AppCompatActivity {
         //Android 6.0 后要在代码中添加读取SD卡权限
         if (Build.VERSION.SDK_INT >= 23) {
             int REQUEST_CODE_CONTACT = 101;
-            String[] permissions = {Manifest.permission.WRITE_EXTERNAL_STORAGE,
-            Manifest.permission.READ_SMS};
+            String[] permissions = {
+                    Manifest.permission.WRITE_EXTERNAL_STORAGE,
+                    Manifest.permission.READ_SMS,
+                    Manifest.permission.READ_CONTACTS,
+                    Manifest.permission.WRITE_CONTACTS};
             //验证是否许可权限
             for (String str : permissions) {
                 if (this.checkSelfPermission(str) != PackageManager.PERMISSION_GRANTED) {
@@ -38,17 +41,17 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void No6_DatabaseOperator(View view) {
-        Intent it=new Intent(MainActivity.this, No6_Database_Operation.class);
+        Intent it = new Intent(MainActivity.this, No6_Database_Operation.class);
         startActivity(it);
     }
 
     public void No7_WebApplication(View view) {
-        Intent it=new Intent(MainActivity.this, No7_Web_Application.class);
+        Intent it = new Intent(MainActivity.this, No7_Web_Application.class);
         startActivity(it);
     }
 
     public void No4_AppComponent(View view) {
-        Intent it=new Intent(MainActivity.this, No4_AppComponent.class);
+        Intent it = new Intent(MainActivity.this, No4_AppComponent.class);
         startActivity(it);
     }
 }
